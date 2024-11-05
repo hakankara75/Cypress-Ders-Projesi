@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl:'https://demoqa.com',
-    watchForFileChanges:false
+    watchForFileChanges:false,
+    experimentalRunAllSpecs: true,
   },
 });
