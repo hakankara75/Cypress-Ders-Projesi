@@ -9,4 +9,7 @@ module.exports = defineConfig({
     watchForFileChanges:false,
     experimentalRunAllSpecs: true,
   },
+  env:{
+    hideXhr : true,
+  }
 });
