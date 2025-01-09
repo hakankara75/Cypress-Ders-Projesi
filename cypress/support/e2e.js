@@ -35,3 +35,4 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
  // app.document.head.appendChild(style);
 //}
+import 'cypress-plugin-steps'
